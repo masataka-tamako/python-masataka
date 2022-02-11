@@ -4,7 +4,7 @@ input_age = input("何歳ですか？: ")
 #年齢を入力値を整数に変換
 age = int(input_age)
 
-#会員と非会員で分岐処理
+#会員と非会員でぶんき処理
 if input_member == "Y":
     if age < 18:
         price = 100
